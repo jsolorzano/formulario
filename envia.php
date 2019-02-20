@@ -56,9 +56,9 @@ if (!$_POST){
 			//Whether to use SMTP authentication
 			$mail->SMTPAuth = true;
 			//Username to use for SMTP authentication
-			$mail->Username = 'solorzano202009@gmail.com';
+			$mail->Username = 'youremail@gmail.com';
 			//Password to use for SMTP authentication
-			$mail->Password = 'ffVII_tch2**LOL';
+			$mail->Password = 'password';
 			//Set who the message is to be sent from
 			$mail->setFrom('solorzano202009@gmail.com', 'Formulario');
 			//Set an alternative reply-to address
