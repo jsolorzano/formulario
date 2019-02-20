@@ -3,9 +3,6 @@ include_once('class.connection.php'); // Clase de conexión
 include_once('class.smtp.php'); // Clase para habilitar el envío de emails usando el protocolo smtp
 include_once('class.phpmailer.php'); // Clase de envío de emails
 
-$remitente = $_POST['email'];
-$destinatario = 'solorzano202009@gmail.com'; // en esta línea va el mail del destinatario.
-$asunto = 'Consulta'; // acá se puede modificar el asunto del mail
 if (!$_POST){
 ?>
 
