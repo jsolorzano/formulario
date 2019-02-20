@@ -56,7 +56,7 @@ class Conexion {
 	public function base_url()
 	{
 		
-		$base_url = $_SERVER['HTTPS'] == 'on' ? 'https://' : 'http://';
+		$base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') ? 'https://' : 'http://';
 		
 		if($_SERVER["SERVER_NAME"] == 'localhost'){
 		
